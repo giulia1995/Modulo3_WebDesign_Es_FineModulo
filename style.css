@@ -1,0 +1,88 @@
+body {
+  background-color: #141414;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  font-size: small;
+}
+.navbar a {
+  color: white;
+}
+
+a:hover {
+  transform: scale(1.02);
+  color: white !important;
+}
+
+ion-icon {
+  padding: 0em 1em;
+  font-size: 1em;
+  color: white;
+}
+
+header,
+main {
+  color: white;
+}
+
+h1 {
+  display: inline-block;
+}
+
+
+.btn {
+  background-color: #010101;
+  color: white;
+  border: 0.5px solid white;
+  border-radius: 0%;
+  font-size: 0.7rem;
+}
+.btn:hover{
+    border: 0.5px solid red; 
+    color: red  !important;
+}
+
+.dropdown-menu li a.dropdown-item:hover {
+    color: red !important;
+}
+
+button.carousel-control-next {
+  right: -6%;
+  opacity: 0 !important;
+}
+
+button.carousel-control-prev {
+  left: -6%;
+  opacity: 0 !important;
+}
+button.carousel-control-next:hover {
+    right: -6%;
+    opacity: 100% !important;
+  }
+  
+  button.carousel-control-prev:hover {
+    left: -6%;
+    opacity: 100% !important;
+  }
+
+footer {
+  width: 60%;
+  margin: 4rem auto;
+}
+footer ion-icon{
+    color: gray !important;
+}
+
+footer a,
+address {
+  text-decoration: none;
+  color: gray;
+  font-size: 0.7em;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(69,69,69,0.82); 
+  box-shadow: 5px 5px 15px 5px rgba(69,69,69,0.82);
+}
