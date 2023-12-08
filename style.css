@@ -14,8 +14,11 @@ body {
 }
 
 a:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
   color: white !important;
+}
+a:focus{
+  color: red !important;
 }
 
 ion-icon {
@@ -31,6 +34,10 @@ main {
 
 h1 {
   display: inline-block;
+}
+h2:hover{
+color: red !important;
+cursor: pointer;
 }
 
 
@@ -88,4 +95,5 @@ address {
   transform: scale(1.05);
   -webkit-box-shadow: 5px 5px 15px 5px rgba(69,69,69,0.82); 
   box-shadow: 5px 5px 15px 5px rgba(69,69,69,0.82);
+  cursor: pointer;
 }
